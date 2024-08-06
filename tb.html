@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TICKET BOOKING</title>
+	<link rel="stylesheet" type="text/css" href="css/ab.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+		</div>
+		<div class="title">
+			<h1>TICKET BOOKING</h1>
+		</div>
+		<div class="form"   align="center">
+			<form action="tb.php" method="post">
+			<h2>Book Here</h2>
+		     <select name="tb_type">
+                    <option value="0" selected disabled>Select Ticket Type</option>
+                    <option value="Business Class">Business Class</option>
+                    <option value="First Class">First Class</option>
+                    <option value="Economy class">Economy class</option>
+			</select>
+            <input type="date" name="tb_date" placeholder="Enter Date">
+			<input type="text" name="tb_des" placeholder="Enter Description">
+			<button class="btn" type="submit">BOOK</button>
+			</form>
+		</div>	
+	</header>
+</body>
+</html>

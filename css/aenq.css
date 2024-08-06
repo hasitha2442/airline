@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('./2.jpg') no-repeat;
+    background-size:cover;
+    color:#fff;
+}
+.sec{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+.airline_enquiry {
+    position:absolute;
+    top:50%;
+    Left:50%;
+    transform:translate(-50%,-50%);
+    width: 350px;
+}
+
+.airline_enquiry h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin: 40px 0;
+}
+
+.airline_enquiry p{
+    font-size: 20px;
+    margin:15px 0;
+}
+
+.airline_enquiry input{
+    font-size:20px;
+    padding:10px 10px;
+    width: 100%;
+    border:0;
+    border-radius: 5px;
+    outline:none;
+}
+
+.airline_enquiry select {
+    font-size:20px;
+    padding:10px 10px;
+    width: 105%;
+    border:0;
+    border-radius: 5px;
+    outline:none;
+
+}
+
+.airline_enquiry button{
+    font-size:25px;
+    align-self: center;
+    width: 100px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding:10px 20px;
+    width:50%;
+    border:0;
+    border-radius:30px;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.airline_enquiry a{
+    font-size:25px;
+    align-self: center;
+    width: 100px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding:10px 55px;
+    width:50%;
+    border:0;
+    border-radius:30px;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.airline_enquiry button:hover{
+    color:crimson;
+}
+.btn1{
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	background: #ef550e;
+	left: 70%;
+	bottom: 40%;
+	margin-top: 5%;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.4s ease;
+
+}
+.dis{
+    position: absolute;
+    top: 10%;
+    left: AUTO;
+	font-weight: bold;
+	font-size: 20px;
+    color: rgb(216, 241, 54);
+}
+.dis1{
+    position: absolute;
+    top: 5%;
+    left: AUTO;
+	font-weight: bold;
+	font-size: 25px;
+    color: rgb(216, 241, 54);
+}
+.btn1:hover{
+	background: #000;
+	color: #fff;
+
+}
+.btn1 a{
+	text-decoration:solid;
+	color: #fff;
+	font-weight: bold;
+}
+
+.nxt button{
+    font-size:25px;
+    align-self: center;
+    width: 350px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding:10px 20px;
+    border:0;
+    border-radius:30px;
+    background-color:rgb(230, 27, 27);
+    cursor:pointer;
+}
+.nxt button:hover{
+    color: #fff;
+}
+

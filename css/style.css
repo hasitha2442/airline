@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(./6.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	left: -180px;
+	top: 20px;
+}
+main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.pop{
+	border: 3px solid rgb(19, 237, 237);
+	width: auto;
+	height: auto;
+	overflow: auto;
+	position: relative;
+	top: 380px;
+	width: 84%;
+	margin-right: 0px;
+	left: -100px;
+}
+
+
+.title{
+	position: absolute;
+	top: 23%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	font-family: 'Times New Roman';
+	color: blue;
+	font-size: 55px;
+}
+.form{
+	width: 280px;
+	height: 600px;
+	background: palegreen;
+	position:absolute;
+	top: 20px;
+	left: 1250px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.form h2{
+	width: 220px;
+    font-family: sans-serif;
+	text-align:center;
+	color: #fff;
+	font-size: 22px;
+	background-color: #334cff;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+
+}
+.form input{
+	width: 240px;
+	height: 25px;
+	background: transparent;
+	border-bottom: 1px solid #334cff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #000;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+
+}
+.btn{
+	width: 140px;
+	height: 40px;
+	background: #1e22f3;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: rgba(241, 245, 247, 0.879);
+	transition: 0.4s ease;
+
+}
+.btn:hover{
+	background: orangered;
+	color: #1b0bc8;
+
+}
+.btn a{
+	text-decoration: none;
+	color: rgb(235, 226, 226);
+	font-weight: bold;
+}
+
+.btn{
+	padding: auto;
+}
+
+.disp1{
+	position: absolute;
+    bottom: 130px;
+    left: 40%;
+	font-weight: bold;
+	font-size: 20px;
+    color: white;
+}
+.disp2{
+	position: absolute;
+    bottom: 110px;
+    left: 42%;
+	font-weight: bold;
+	font-size: 20px;
+    color: white;
+}

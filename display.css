@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: times new roman;
+}
+body{
+	background:url(css/4.jpg) no-repeat;
+	background-size:cover;
+	
+}
+.table{
+	position: absolute;
+	top: 58%;
+	background-color: rgba(238, 243, 241, 0.844);
+	left: 50%;
+	transform : translate(-50%, -50%);
+	width: 350px;
+	text-align: center;
+	border-color: aliceblue;
+	border-spacing: 0px;
+	color: black;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 40px;
+	color: rgb(114, 237, 6);
+}
+
+
+tr:nth-of-type(even){
+	background-color: #d5bf2f;
+	opacity: 90%;
+}
+
+th{
+	background: #d5bf2f;
+	color: sienna;
+}
+
+	
+	

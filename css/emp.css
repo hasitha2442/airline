@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	background: url('./3.jpg') no-repeat;
+    background-size:cover;
+}
+
+
+.heading{
+	color: #06c9c6;
+	top: auto;
+	bottom: auto;
+	text-align: center;
+	width: auto;
+	height: auto;	
+}
+
+.logo img {
+    float: left;
+    width: 250px;
+    height: 103px;
+    margin-left: 78px;
+    margin-top: 14px;
+}
+
+.heading2 {
+    position: relative;
+    color: #b61bdd;
+    top: auto;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: auto;
+    text-align: center;
+    width: 263px;
+    margin-right: 52px;
+}
+.box {
+    position: relative;
+    width: 394px;
+    height: 410px;
+    background: #fefdfd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.box::before 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 420px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#060606,#060606);
+	animation: animate 6s linear infinite;
+}
+.box::after 
+{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 420px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,#0b0b0b,#0b0b0b);
+	animation: animate 6s linear infinite;
+	animation-delay: -3s;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+form {
+    position: absolute;
+    inset: 2px;
+    background: #691278e0;
+    padding: 30px 20px;
+    border-radius: 8px;
+    z-index: 2;
+    flex-direction: column;
+}
+h2 
+{
+	color: #1fdee8;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+.inputBox 
+{
+	position: relative;
+	width: 300px;
+	margin-top: 35px;
+}
+.inputBox input 
+{
+	position: relative;
+	width: 100%;
+	padding: 20px 10px 10px;
+	background: transparent;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	color: #f2f3f9;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+	z-index: 10;
+}
+.inputBox span 
+{
+	position: absolute;
+	left: 0;
+	padding: 20px 0px 10px;
+	pointer-events: none;
+	font-size: 1em;
+	color: #f6efef;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span 
+{
+	color: #fcfefc;
+	transform: translateX(0px) translateY(-34px);
+	font-size: 0.75em;
+}
+.inputBox i 
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #0fd1f8;
+	border-radius: 4px;
+	overflow: hidden;
+	transition: 0.5s;
+	pointer-events: none;
+	z-index: 9;
+}
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i 
+{
+	height: 44px;
+}
+
+input[type="submit"] {
+    border: red;
+    padding: 13px 28px;
+    background: #11f311;
+    cursor: pointer;
+    border-radius: 11px;
+    font-weight: 600;
+    width: 159px;
+    margin-left: 88px;
+    margin-top: 19px;
+}
+input[type="submit"] {
+    padding: 13px 28px;
+    background: #11f311;
+    cursor: pointer;
+    border-radius: 11px;
+    font-weight: 600;
+    width: 159px;
+	opacity: 100%;
+    margin-left: 88px;
+    margin-top: 46px;
+}

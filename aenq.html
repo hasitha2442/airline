@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AIRLINE ENQUIRY</title>
+        <link rel="stylesheet" type="text/css" href="css/aenq.css">
+    </head>
+    <body>
+        <div class="airline_enquiry">
+            
+            
+            <h1>Airline Enquiry:</h1>
+            <form action="aenq.php" method="POST">
+                <p>AIR BOOKING ID</p>
+                <input type="text" name="ab_id"  placeholder="AIRLINE BOOKING ID" required>
+                <p>TITLE</p>
+                <input type="text" name="aenq_title"  placeholder="TITLE" required>
+                <p>TYPE</p>
+                <select name="aenq_type"  required >
+                    <option value="0" selected disabled>Select</option>
+                    <option value="ID PROBLEM">ID PROBLEM</option>
+                    <option value="TICKET ISSUE">TICKET ISSUE</option>
+                    <option value="DATE BLOCKED">DATE BLOCKED</option>
+                    <option value="CANCEL">CANCEL</option>
+                </select>
+                <p>DATE</p>
+                <input type="date" name="aenq_date" placeholder="DATE" required>
+                <p>DESCRIPTION</p>
+                <input type="text" name="aenq_des"  placeholder="ABOUT AIRLINE" required>
+                <button  type="submit">Submit</button>
+                <a href="./main.html">Back</a>
+            </form>
+        </div>
+        <div class="nxt">
+            <button><a href="tenq.html">TICKET ENQUIRY</a></button>
+        </div>
+    </body>
+    
+</html>

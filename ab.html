@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AIRLINE BOOKING</title>
+	<link rel="stylesheet" type="text/css" href="css/ab.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+		</div>
+		<div class="title">
+			<h1>AIRLINE BOOKING</h1>
+		</div>
+		<div class="form" align="center">
+			<form action="ab.php" method="post">
+			<h2>Book Here</h2>
+		    <select name="ab_type" id="ab_type">
+                    <option value="0" selected disabled>select Airline</option>
+                    <option value="Indigo">Indigo</option>
+                    <option value="Emirates">Emirates</option>
+                    <option value="Kingfisher">Kingfisher</option>
+                    <option value="Air India">Air India</option>
+                    <option value="Spice jet">Spicejet</option>
+                    <option value="Deccan">Deccan</option>
+            </select>
+			<input type="date" name="ab_date" id="ab_date" placeholder="Enter Date">
+			<input type="text" name="ab_des" id="ab_des" placeholder="Enter Description">
+			<button  class="btn" type="submit">BOOK</button> 
+			</form>
+		</div>
+	</header>
+</body>
+</html>
